@@ -12,9 +12,9 @@ name: Build X86-64+SSR-JO-20200130
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
 #  watch:
 #    types: [started]
 
