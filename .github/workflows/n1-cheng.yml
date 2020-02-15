@@ -10,11 +10,11 @@ name:  编译支持斐讯N1盒子的OpenWRT固件-20200128
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
-#  watch:
-#    types: [started]
+  push:
+    branches: 
+      - master
+  watch:
+    types: [started]
 
 jobs:
   build:
