@@ -12,9 +12,9 @@ name: Build X86-64+VSSR-20200129
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
 #  watch:
 #    types: [started]
 
